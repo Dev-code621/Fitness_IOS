@@ -1,0 +1,404 @@
+/*
+  Localizable.strings
+  NewTRS
+
+  Created by Luu Lucas on 5/26/20.
+  Copyright © 2020 Luu Lucas. All rights reserved.
+*/
+
+"kAPIRequestFailed"         = "Sorry!";
+"kConnectionLost"           = "Connection Lost!";
+"kAPIFailToParse"           = "An upgrade is currently in progress.\nPlease try again later.";
+"kFeatureDoNotAvailable"    = "This feature is not available right now. We will upgrade it soon";
+"kNoInternetConnectionMessage" = "Connection Error!\nSorry, we are unable to load this content. Please check your internet connection settings";
+"kNoInternetTitle"          = "Ooops... Something went wrong !";
+"kNoInternetMessage"        = "We're having difficulty connecting to the internet. Please check your connection.";
+"kOfflineModeBtn"           = "Offline Mode";
+"kDailyLoginTitle"          = "Daily Login";
+"kDailyLoginMessage"        = "Keep your streak going! Check out your new updates today!";
+"kReminderTitle"            = "Reminder";
+"kReminderWorkoutMessage"   = "It's time to do your post-workout mobilizations!";
+//MARK: - VC_SubPageLunchSceen
+"kUpdateTitle"              = "AppStore Update!";
+"kUpdateWarningMessage"     = "The latest App version is now released. Please download today to access new features and upgrades.";
+
+//MARK: - VC_SignInAuthentication
+"kSignInBtn"                = "Sign In";
+"kSignUpBtn"                = "Sign Up";
+"kSignInExplaintion"        = "Let’s create an account!";
+"kOkAction"                 = "OK";
+"kCancelAction"             = "Cancel";
+"kSignInAppTutorialBtn"     = "Take A Sneak Peek";
+"kErrorEmailEmpty"          = "Please enter your email address.";
+"kErrorPasswordEmpty"       = "Please enter your password.";
+"kErrorEmailInvalid"        = "Please enter a valid email address to proceed.";
+
+"kSignInFailTitle"          = "Login Failed";
+"kSignUpFailTitle"          = "Signup Failed!";
+"kFailToRequestAPIs"        = "We’re currently experiencing technical difficulties. Please try again in a few minutes.";
+"kSignInMessageFail"        = "We’re currently experiencing technical difficulties. Please try again in a few minutes.";
+"kSignInMessage0"           = "This password is incorrect. Please enter your correct password or select 'Forgot Password'.";
+"kSignInMessage1"           = "Too many failed attempts. Your account will lock in 30 minutes. Please choose \"Forgot Password\" to create a new password.";
+"kSignInMessage2"           = "This email is not registered. Please choose another email or create an account.";
+"kSignInMessage3"           = "User has not finished the required new password setup.\nPlease update your password today.";
+
+"kPasswordFormatWarning"    = "Your password must be between 8 to 16 characters, include at least 1 uppercase letter, 1 lowercase letter and 1 of these special characters: @, $, #, !, %, *, ?, &";
+
+//MARK: - VC_InAppReviews
+"kReviewTitle"              = "The First Two Weeks Are On Us";
+"kQuoteReviews"             = "Try Virtual Mobility Coach for free.\nCancel anytime. That's how we say, \n \"Thanks for joining Virtual Mobility Coach\" \n\nOne free trial per user";
+"kTrialBtn"                 = "Unlock The Full Version";
+"kChooseFreemiumBtn"        = "Use The Lite Version";
+"kChosenPlanTitle"          = "Your chosen plan is:";
+
+//MARK: - VC_ForgotPassword
+"kFailedOTP"                = "Temporary passcode Failed";
+"kFailRecoveryTitle"        = "Account Recovery Failed";
+"kFailPasswordReset"        = "Password Reset Failed";
+"kRecoveryPass"             = "Recover Password";
+"kResetPass"                = "Reset Password";
+"kRecoveryPassExplain"      = "Please enter your registered email to reset your password.";
+"kRequestOTPExplain"        = "We have sent a temporary passcode to your registered email address.";
+"kRequestOTPWarnings"       = "Please enter the temporary passcode sent to your email";
+"kNewPasswordExplain"       = "Please enter your new password.";
+"kPasswordEmpty"            = "Password can not be left empty";
+"kPasswordDoNotMatch"       = "Passwords do not match. Please check again.";
+"kEmailPlaceHolder"         = "Email";
+"kOTPPlaceHolder"           = "One Time Password";
+"kPassword"                 = "Password";
+"kNewPassword"              = "New Password";
+"kConfirmNewPassword"       = "Confirm Password";
+"kNextBtn"                  = "Next";
+"kConfirmBtn"               = "Confirm";
+"kDoneBtn"                  = "Done";
+"kSaveBtn"                  = "Save";
+"kApplyBtn"                 = "Apply";
+"kChangePasswordSucessTitle"= "Password Changed!";
+"kChangePasswordSucessMessage"= "Password changed successfully.";
+
+//MARK: - VW_QuizUserName
+"kQuizAskAboutYou"          = "Let’s get to know\na little bit about you!";
+"kQuizAskGender"            = "What's your gender?";
+"kFirstNamePlaceHolder"     = "First Name";
+"kLastNamePlaceHolder"      = "Last Name";
+"kQuizAskUserDOB"           = "When is your birthday?";
+"kDOBPlaceHolder"           = "MM/DD/YYYY";
+"kOopTitle"                 = "Ooops!";
+"kUnder13YsMessage"         = "You must be at least 13 years old to proceed!";
+"kAskUserEquipment"         = "What equipment/household items do you have access to?";
+
+"kSkipTitle"                = "Skip Quiz";
+"kSkipWarningMessage"       = "Are you sure? You will have to restart the quiz next time you log in";
+
+//MARK: - VC_InAppPurchase
+"kInAppPurchaseTitle"       = "Which plan do you want after your free two week trial?";
+"kInAppPurchaseNonTrialTitle" = "Which plan do you want to try?";
+"kInAppPurchaseRenewTitle"  = "Your Apple ID has already tried the Free Trial.\nPlease choose a membership plan to continue with full access.";
+"kIAPMonthlyPriceTitle"     = "/month";
+"kIAPYearlyPriceTitle"      = "/year";
+"kInclude14DayFree"         = "Include 14 days free trial";
+"kPayBtn"                   = "Pay";
+"kIAPSkipWarningMessage"    = "Do you want to skip? You can choose to buy a subscription anytime in your profile";
+"kIAPResendTitle"           = "In-App Purchase";
+"kIAPResendMessage"         = "Your payment has been updated";
+
+//MARK: - VC_MainPagePain
+"kMainPagePainBodyPart"     = "In pain or want to mobilize a specific body part? Click on the area of your body that hurts to get your personal pain prescription.";
+
+//MARK: - VC_MainPagePainDetails
+"kDownloadBtn"              = "Download";
+"kFullScreenBtn"            = "Full-Screen";
+"kCastBtn"                  = "Cast";
+"kAddWishListBtn"           = "Add to Favorites";
+
+"kUnderstandingPain"        = "Understanding Pain";
+"kMobilityRX"               = "Your Pain Prescription";
+"kAdvancedPain"             = "Advanced Pain Techniques";
+
+//MARK: - VC_MainPageHome
+"kSearchTextField"          = "Search The Old MobilityWOD Archive";
+"kSeeMore"                  = "See More";
+"kFilterAll"                = "All";
+"kFilter10min"              = "10 mins";
+"kFilter20min"              = "20 mins";
+"kFilter30min"              = "30 mins";
+"kNewVideo"                 = "New videos";
+"kMobility"                 = "My Mobility Score";
+
+"kPrepRecoverTitle"         = "Prep/Recover";
+"kByWorkout"                = "By Workout";
+"kBySport"                  = "By Sport";
+"kByArchetype"              = "By Archetype";
+"kFilterEquipment"          = "Equipment";
+"kFilterPrePost"            = "Workouts";
+"kFilterSport"              = "Sport";
+"kFilterArchetype"          = "Archetype";
+"kGoToMobiliTyPlan"         = "Go To My Mobility Plan";
+"kTakeMobilityTest"         = "Test My Mobility";
+"kUpsellTitle"              = "Virtual Mobility Coach Gear";
+"kBestUpsellTitle"          = "Best Sellers";
+"kPainTitle"                = "Pain / Body Part";
+
+"kDailyMaintenance"         = "Daily Maintenance";
+"kDailyMaintenenceMessage"  = "Maintain your mobility with today’s featured video, or choose your own from the library below.";
+
+"kDailyQuizTitle"           = "What Would You Like To Do Today?";
+"kDailyQuizOptionDaily"     = "I'd like to do the Daily Maintenance";
+"kDailyQuizOptionPain"      = "I’m in pain or want to work on\na specific body part";
+"kDailyQuizOptionWorkouts"  = "I want to prepare or recover\nfrom a workout or sport";
+"kDailyQuizOptionMobilized" = "I want to take the mobility test";
+"kRelatedVideos"            = "Related Videos";
+"kSearchDailyTextField"     = "Filter";
+
+//MARK: - VC_MainPageSearch
+"kClearAll"                 = "Clear all";
+"kFocusAreaTitle"           = "Focus Areas";
+"kDurationTitle"            = "Duration";
+"kSearchResults"            = "Search Results";
+"kSearchResultsNoData"      = "No results found, sorry!\nPlease try another search";
+
+//MARK: - VC_MainPageDaily
+"kDailyFilter"              = "Filter by Focus Area & Time";
+
+//MARK: - VC_MainPageAllMaintenances
+"kMaintenancesTitle"        = "Maintenance Videos";
+
+//MARK: - VC_SubPageVideoPlayer
+"kRequiredEquipment"        = "Required Equipment";
+"kCoachTips"                = "Coach Tips";
+"kMayAsYouLike"             = "You May Also Like";
+"kSorryTitle"               = "Sorry!";
+"kDownloadTitle"            = "Download Video";
+"kVideoDownloaded"          = "Video Finished Downloading";
+"kDownloadVideoLitmit"      = "Sorry, Only 5 Video Downloads Allowed.";
+"kSeeMore"                  = "See More";
+"kCongratulationTitle"      = "Congratulations!";
+"kFinishedVideoMessage"     = "Video Completed";
+"kOnePointMessage"          = "1 Point Earned For Watching This Video!";
+
+//MARK: - VC_MainPageWorkout
+"kWorkouts"                 = "Prep/Recover";
+"kWorkout"                  = "Workouts";
+"kSport"                    = "Sports";
+"kArchetype"                = "Archetypes";
+"kViewAll"                  = "View All";
+"kPreVideoFilterOnly"       = "Pre videos only";
+"kPostVideoFilterOnly"      = "Post videos only";
+
+//MARK: - VC_MainPageWorkoutDetails
+"kSuggestion"               = "Today’s Pre-Workout Video";
+"kNoResult"                 = "No Results";
+"kNoMatchingProductsFound"  = "No Matching Products Found";
+"kMovemomentGuideBtn"       = "Movement Guide";
+"kPostVideosTitle"          = "Today's Post-Workout Videos";
+
+//MARK: - VC_MainPageMobility
+"kTimelineTestingLabel"     = "%.f days until the next test! Go to My Mobility Plan below to see the exercises recommended for you until then.";
+"kTimelineOver14DaysTestingLabel" = "It has been a while since your last Mobility test. Let’s check on your progress. Retest today!";
+"kMobilityStartTestBtn"     = "Test My Mobility";
+"kMobilityPlanBtn"          = "My Mobility Plan";
+"kReTestBtn"                = "Retest My Mobility";
+"kTimelineNotTestingLabel"  = "Check your body's mobility today.";
+"KCountVideoLabel"          = "Videos";
+
+//MARK: - VC_MainPageMobilityTestVideo + Selection + Result
+"kEnterMyScoreBtn"          = "Choose Your Score";
+"kInstructionLabel"         = "Instructions";
+"kCompensationLabel"        = "Compensations";
+
+"kMobilityTestTitle"        = "Mobility Test";
+"kPoseForRed"               = "Pose as red point";
+"kPoseForYellow"            = "Pose as yellow point";
+"kPoseForGreen"             = "Pose as green point";
+
+"kMobilityTestResultTitle"  = "Test Results";
+"kMobilityTestMessageTitle" = "Congratulations! You have completed the test.";
+"kTrunk"                    = "Trunk";
+"kShoulder"                 = "Shoulder";
+"kHip"                      = "Hip";
+"kAnkle"                    = "Ankle";
+
+"kOutOf"                    = "Out Of";
+"kHeyTitle"                 = "Hey!";
+"kBackTestScoreMessage"     = "Going back will require you to enter a new score. Are you sure?";
+"kContinueBtn"              = "Continue the Test";
+"kSureBtn"                  = "I'm Sure";
+
+//MARK: - VC_MainPageMyMobilityPlan
+"kMyMobilityPlanTitle"      = "My Mobility Plan";
+"kTrunkPractice"            = "Trunk";
+"kShoulderPractice"         = "Shoulder";
+"kHipPractice"              = "Hip";
+"kAnklePractice"            = "Ankle";
+"kTodaySuggestTitle"        = "Today's Suggested Videos";
+"kWatchLaterBtn"            = "Watch Later";
+"kSkipBtn"                  = "Skip";
+
+//MARK: - VC_MainPageBonusContents
+"kBonusContent"             = "Bonus Content";
+"kMiniQA"                   = "Mini Q&A";
+"kDownregulation"           = "Kelly's Downregulation Class";
+"kAskMeAnything"            = "Ask Me Anything";
+"kBonusContenNoData"        = "There are currently no videos available. Please check back later.";
+
+//MARK: - VC_SubPageUserProfile
+"kFavorites"            = "My Favorites";
+"kNotifications"            = "My Notifications";
+"kSettings"                 = "Settings";
+"kMyEquipmentsList"         = "My Equipment";
+"kMyMembership"             = "My Membership";
+"kSubsriptions"             = "Subscriptions";
+"kContactUs"                = "Contact Us";
+"kHelpOption"               = "Help Center";
+"kAppPolicy"                = "Privacy Policy / Terms & Conditions";
+"kDownloaded"               = "My Downloads";
+"kDownloadedNoData"         = "No videos selected for download. Find some today!";
+"kDownloadingMessage"       = "Your video is still downloading. Choose Continue to finish downloading and then logout, or Stop to cancel downloading and logout immediately.";
+"kDownloadingStopBtn"       = "Stop";
+"kDownloadingContinuousBtn" = "Continue";
+"kLogout"                   = "Logout";
+"kCancelSubscription"       = "Cancel Subscription";
+"kChangePlanSubscription"   = "Change Subscription Plan";
+"kCancelSubscriptionAlert"  = "We're sorry to see you go!";
+"kCancelSubscriptionMessage"= "You will be taken to the registration management page. Do you want to continue?";
+
+"kMembershipPackage"        = "Membership Package";
+"kRegistrationDate"         = "Subscription Date";
+"kExpiredDate"              = "Expiration Date";
+
+"kSendBtn"                  = "Send";
+"kEmailContactSendTitle"    = "Thank you for contacting us.";
+"kEmailContactFailTitle"    = "Email failed to send.";
+"kEmailContactNotFound"     = "Please connect your email account in order to send emails.";
+"kEmailContactSendMessage"  = "We appreciate you taking time to write to us. We'll get back to you soon.";
+
+"kLogoutTitle"              = "Confirm Logout";
+"kLogoutMessage"            = "Are you sure you want to log out?";
+
+"kMyEquipmentTitle"         = "Equipment";
+"kEditProfileTitle"         = "Edit Profile";
+"kEditProfileMessage"       = "Update your information using the fields below.";
+
+"kAnotherDeviceTitle"       = "This account is already logged into on another device.";
+"kAnotherDeviceMessage"     = "You are currently logged in on another device. Please log out of the other device or contact your administrator.";
+
+//MARK: - VC_SubPageFavorite
+"kFavorite"                 = "Favorites";
+"kRemoveFavorite"           = "Remove from Favorites?";
+"kVideoNotDownload"         = "This video is not available for download.";
+"kVideoNotAddFavorite"      = "Sorry, this video cannot be added to your Favorites.";
+"kVideoAlreadyAddedFavorite"= "This video is already added to your Favorites list";
+"kRemovedSuccess"           = "Are you sure you want to remove this video?";
+"kFavoriteNoDataMeaage"     = "You have not selected any Favorite videos. Add some today!";
+"kAddVideoFavoriteTitle"    = "Video Added";
+"kAddVideoFavoriteMessage"  = "You have added this video to your Favorites.";
+"kRemovedTitle"             = "Video Removed";
+"kRemovedMessage"           = "You have removed this video from your Favorites.";
+
+//MARK: - VC_SubPageProgress
+"kProgress"                 = "Progress";
+"kUserHistotyBtn"           = "History";
+"kUserHistoryNoData"        = "When you watch a video or join our mini Q&A, your history will show up here.";
+"kUserRulesBtn"             = "Rules";
+"kUserStreaksBtn"           = "Streaks";
+"kUserLeaderboardBtn"       = "Leaderboard";
+"kUserStreaksNoDataTitle"   = "Empty point";
+"kPoints"                   = "%@ Points";
+"kUserArchivementNoData"    = "More points, more fun. Watch a video or join our mini Q&A to earn some points.";
+"kUserLeaderboardNoDataTitle"   = "Worldwide Leaderboard of\nVirtual Mobility Coach";
+"kUserLeaderboardNoData"    = "Join this list of the top 50 active members. Check out more  of the app today!";
+"kTrackingUserStreaksTitle"     = "Sorry!";
+"kTrackingUserStreaksMessage"   = "Please try again to receive the streak.";
+"kTrackingUserStreaksRetryBtn"  = "Retry";
+"kTrackingUserStreaksCancelBtn" = "Cancel";
+"kUserStreaksCongratulationDescr" = "Congratulations on improving your mobility for %@ days in a row. Keep up the great work!";
+"kUserRulesNoDataTitle"           = "Leaderboard Rules";
+"kUserRulesNoData"                = "Increase your activity in the App for the chance at a spot in our Top 50 Members ranking.";
+
+//MARK: - Freemium
+"kFreemiumWarning"          = "Freemium";
+"kFreemiumMessage"          = "You cannot use this feature with a free account. Please upgrade to experience the full App.";
+"kFreemiumExpiredMessage"   = "Your subscription has ended. Please upgrade or renew your subscription to continue using the full version of the App.";
+"kUpgradeAction"            = "Upgrade";
+
+//MARK: - Update
+"kQuizFailTitle"                                    = "Failed Answer Quiz";
+"kQuizFailFistNameMessage"                          = "Please enter your first name";
+"kQuizFailFistName30Message"                        = "First name should be 1 to 30 characters";
+"kQuizFailLastNameMessage"                          = "Please enter your last name";
+"kQuizFailLastName30Message"                        = "Last name should be 1 to 30 characters";
+"kQuizFailAnswerAllQuestion"                        = "Please answer all questions";
+"kDeleteVideoTitle"                                 = "Delete this video?";
+"kDeleteVideoMessage"                               = "Are you sure you want to delete this video?";
+"kDeleteVideoSureBtn"                               = "Sure!";
+"kEditProfileSuccessMessage"                        = "Update Successful";
+"kAPIErrorTimeOut"                                  = "We’re currently experiencing technical difficulties. Please try again.";
+"kRestorePurchaseBtn"                               = "Restore Purchases";
+"kReviewUserJoin"                                   = "Member since %@";
+"kUserStreaksPointDay"                              = "You’re On A %@ Day Streak!";
+"kUserStreaksPointDayDesc"                          = "Continue coming back to mobilize every day for %@ days in a row to earn your next badge";
+"kSkipInAppTitle"                                   = "Are you sure?";
+"kSkipInAppWarningMessage"                          = "You will have access to the Lite version only. Upgrade to a plan in your profile settings to use all features.";
+"kResumeAction"                                     = "Resume";
+"kUserInAppPurchasePendingMessage"                  = "You have an undone transaction so your membership plan has not updated yet. Do you want to?";
+"kNotificationNoDataMeaage"                         = "You have no Notifications yet.";
+"kHomePageExtraTitle"                               = "Welcome to \n Virtual Mobility Coach!";
+"kHomePageExtraMessage"                             = "See below for an overview of what you’ll find in our app.";
+"kPaymentsAwaitingMessage"                          = "You have no payments awaiting.\nLet's create new one";
+"kSubscriptionTitle"                                = "Subscription";
+"kSubscriptionMissForMonthMessage"                  = "We are having some technical difficulties. Please try again later.";//"Missing Subscription plan for month";
+"kSubscriptionMissForYearMessage"                   = "We are having some technical difficulties. Please try again later";//"Missing Subscription plan for year";
+"kSubscriptionBrandNewAppleMessage"                 = "You are doing our subscription plan with a brand new Apple ID account, double-check your old Apple ID account to avoid double cost.";
+"kSubscriptionMyUserIncludeMessage"                 = "You have subscribed to our plan with more than one Apple account, which may cost you double the amount to subscribe.\nCheck the AppleID accounts associated with this Virtual Mobility Coach account carfully.\nDo you want to continue?";
+"kSubscriptionMyUserReactiveMessage"                = "You have subscribed to our plan.\nThis action will re-activate your subscription.\nYou can check in your Itunes settings";
+"kSubscriptionNotMyUserMessage"                     = "Your Apple ID account is linked to another account, so it is not possible to subscribe to the current account.\nPlease check again.";
+"kSubscriptionContinueBtn"                          = "Continue";
+"kSignUpFreeAccountBtn"                             = "Create Your Free Account";
+"kInAppPurchaseYearTitle"                           = "Annually Subscription Plan";
+"kInAppPurchaseMonthTitle"                          = "Monthly Subscription Plan";
+"kMobilityTestQuitBtn"                              = "Exit The Test";
+"kRetestMobilityTestMessage"                        = "Do you want to take the test from the beginning? ";
+"kSkipQuizMessage"                                  = "You can take the quiz in next time you login.";
+"kDoneQuizMessage"                                  = "Do you want to answer all questions?";
+"kNoAction"                                         = "No";
+"kYesAction"                                        = "Yes";
+"kFinishQuizTitle"                                  = "Finish Quiz";
+"kUserChangePass"                                   = "Change Password";
+"kUserChangePassTitle"                              = "Change Password";
+"kUserChangePassBtn"                                = "Change Password";
+"kUserChangePassMessage"                            = "Your new password must be different from the previous used passwords.";
+"kCurrentPasswordPlaceHolder"                      = "Current Password";
+"kNewPasswordPlaceHolder"                          = "New Password";
+"kConfirmNewPasswordPlaceHolder"                   = "Confirm Password";
+"kWarmUpTitle"                                     = "Warm Up";
+"kMobilityRetestMessage"                           = "How do you want to proceed?";
+"kMobilityRetestBeginingBtn"                       = "Start the test from the beginning";
+"kMobilityRetestContinousBtn"                      = "Continue the test from where I left off";
+"kPasswordCurrentEmptyMessage"                     = "Please enter your current password";
+"kPasswordNewEmptyMessage"                         = "Please enter your new password";
+"kPasswordConfirmEmptyMessage"                     = "Please enter your confirm password";
+"kPasswordConfirmMatchMessage"                     = "The confirm password must match the new password";
+"kMobilityTestIncomplete"                          = "(Incomplete)";
+"kMobilityPlanContinueBtn"                         = "Continue My Mobility Test";
+"kNoEquipmentMessage"                              = "This video does not require any equipment";
+"kTutorialJoinUsBtn"                               = "Join Us";
+"kEquipmentPopupMessage"                           = "The minimum equipment you need is foam roller and lacrosse ball";
+"kEquipmentQuizPopupMessage"                       = "The minimum equipment you need to do this program is a foam roller and lacrosse ball, so those are preselected for you";
+"kMessageTitle"                                    = "Message";
+"kMobilityTestFinishBtn"                           = "Finish";
+"kMyDownloadVideoOfflineHaveVideo"                 = "Hey! It looks like you’re currently offline. Please find your downloaded videos here!";
+"kMyDownloadVideoOfflineNoVideo"                   = "Sorry! It looks like you’re currently offline and do not have any downloaded videos in your account. Please try again when you’re back online.";
+"kRetryBtnDaily"                                   = "Retry";
+"kInAppPrivacyPolicyBtn"                           = "Privacy Policy";
+"kInAppTermsServiceBtn"                            = "Terms of Service";
+"kInAppDescMessage"                                = "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. For more information";
+"kNoticeTitle"                                     = "Notice";
+"kUserPlatformWebMessage"                          = "Please resubscribe using the same method (Website) that your original subscription was created with.";
+"kUserPlatformAndroidMessage"                      = "Please resubscribe using the same method (Google Play) that your original subscription was created with.";
+"kUserPlatformRedirectedMessage"                   = "Do you want to be redirected now?";
+"kUpdateAppleStoreTitle"                           = "Update Now";
+"kUpdateAppleStoreLaterTitle"                      = "Remind me later";
+"kUserPlatformCancelWebMessage"                    = "Please cancel using the same method (Website) that your original subscription was created with.";
+"kUserPlatformCancelAndroidMessage"                = "Please cancel using the same method (Google Play) that your original subscription was created with.";
+"kUserAreaTitle"                                   = "Areas";
+"kCancelSubcriptionMember"                         = "Cancel my membership";
